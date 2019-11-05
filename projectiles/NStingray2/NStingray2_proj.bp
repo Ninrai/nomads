@@ -20,6 +20,7 @@ ProjectileBlueprint {
         'NOMADS',
         'PROJECTILE',
         'DIRECTFIRE',
+        'ANTINAVY',
     },
     Display = {
         ImpactEffects = {
@@ -37,13 +38,14 @@ ProjectileBlueprint {
     },
     General = {
         Category = 'Direct Fire',
+        Category = 'Anti Navy',
         Weapon = 'Gauss Cannon',
     },
     Interface = {
         HelpText = 0,
     },
     Physics = {
-        DestroyOnWater = true,
+        DestroyOnWater = false,
         InitialSpeed = 12,
         Lifetime = 1.5,
         UseGravity = false,
